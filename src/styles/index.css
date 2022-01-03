@@ -1,0 +1,44 @@
+.title {
+    font-family: 'Noto Sans Display', 'sans-serif';
+    font-weight: bold;
+    color: black;
+}
+
+.subtitle {
+    font-family: 'Ubuntu Condensed', 'sans-serif';
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.subtitle-2 {
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    color: black;
+}
+
+.item {
+    display: inline-flex;
+}
+
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.caption {
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 2ch;
+}
+
+.caption-2 {
+    font-family: 'Ubuntu Mono', 'monospace';
+}
+
+.text {
+    font-family: 'Roboto', 'sans-serif;'
+}
+
+.text-2 {
+    font-family: 'Dancing Script', 'cursive';
+}

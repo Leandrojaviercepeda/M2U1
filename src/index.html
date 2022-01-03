@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplomatura en programación web full stack con React JS - Modulo 1 - Unidad 3</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Noto+Sans+Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+    <!-- Ubuntu+Condensed -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- Fira+Sans+100 -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- Dancing+Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- Ubuntu+Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- Dancing+Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <main>
+
+        <header>
+            <!-- Information -->
+            <div class="grid-information" id="information">
+                <h1 class="title">Nombre y apellido</h1>
+                <ul>
+                    <li>
+                        <div class="item">
+                            <p class="name">Nacionalidad: </p>
+                            <p class="caption">...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="name">Provincia:</p>
+                            <p class="caption">...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="name">Edad:</p>
+                            <p class="caption">...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="name">Dirección:</p>
+                            <p class="caption">Calle - Altura - Piso - Departamento - Numero</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="name">Teléfono:</p>
+                            <p class="caption">+XX-XXXX-XXXXXX</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="name">Email:</p>
+                            <p class="caption">ejemplo@dominio.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Image -->
+            <div id="image">
+                <img src="../public/img/user.png" alt="usuario">
+            </div>
+        </header>
+        <section>
+            <!-- Experience -->
+            <div id="experience">
+                <h2 class="subtitle">
+                    <i class="fas fa-briefcase"></i> 
+                    Experiencia
+                </h2>
+                <ul>
+                    <li>
+                        <h4 class="subtitle-2">Nombre de empresa</h4>
+                        <p class="text-2">Ubicacion</p>
+                        <p class="text-2">Fecha de inicio: DD/MM/AAAA</p>
+                        <p class="text-2">Fecha de finalizacion: DD/MM/AAAA</p>
+                    </li>
+                    <li>
+                        <h4 class="subtitle-2">Nombre de empresa</h4>
+                        <p class="text-2">Ubicacion: País - Provincia - Ciudad</p>
+                        <p class="text-2">Fecha de inicio: DD/MM/AAAA</p>
+                        <p class="text-2">Fecha de finalizacion: DD/MM/AAAA</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Training -->
+            <div id="training">
+                <h2 class="subtitle">
+                    <i class="fas fa-school"></i>
+                    Formacion
+                </h2>
+                <ul>
+                    <li>
+                        <h4 class="subtitle-2">Nombre de institucion</h4>
+                        <p class="text-2">Ubicacion: País - Provincia - Ciudad</p>
+                        <p class="text-2">Fecha de inicio: DD/MM/AAAA</p>
+                        <p class="text-2">Fecha de finalizacion: DD/MM/AAAA</p>
+                        <p class="text-2">Curso</p>
+                    </li>
+                    <li>
+                        <h4 class="subtitle-2">Nombre de institucion</h4>
+                        <p class="text-2">Ubicacion: País - Provincia - Ciudad</p>
+                        <p class="text-2">Fecha de inicio: DD/MM/AAAA</p>
+                        <p class="text-2">Fecha de finalizacion: DD/MM/AAAA</p>
+                        <p class="text-2">Curso</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Profile -->
+            <div id="profile">
+                <h2 class="subtitle">
+                    <i class="fas fa-id-card-alt"></i>
+                    Perfil profesional
+                </h2>
+                <p class="text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+            </div>
+    
+            <!-- Scopes -->
+            <div id="scopes">
+                <h2 class="subtitle">
+                    <i class="fas fa-user-tie"></i>
+                    Alcances profesionales
+                </h2>
+                <p class="text"> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+            </div>
+    
+            <!-- Technologies -->
+            <div id="technologies">
+                <h2 class="subtitle">
+                    <i class="fas fa-kaaba"></i>
+                    Tecnologias conocidas
+                </h2>
+                <ul>
+                    <li><p class="caption-2">Tecnologia 1</p></li>
+                    <li><p class="caption-2">Tecnologia 2</p></li>
+                    <li><p class="caption-2">Tecnologia .</p></li>
+                    <li><p class="caption-2">Tecnologia .</p></li>
+                    <li><p class="caption-2">Tecnologia .</p></li>
+                    <li><p class="caption-2">Tecnologia n</p></li>
+                </ul>
+            </div>
+    
+            <!-- Projects -->
+            <div id="projects">
+                <h2 class="subtitle">
+                    <i class="fas fa-project-diagram"></i>
+                    Proyectos
+                </h2>
+                <ul>
+                    <li>
+                        <div>
+                            <div class="item">
+                                <p class="name">Nombre de proyecto: </p>
+                                <p class="caption">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                            </div>
+                            <div>
+                                <a href="URL" target="value">Enlace 1</a>
+                                <a href="URL" target="value">Enlace 2</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace n</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="item">
+                                <p class="name">Nombre de proyecto: </p>
+                                <p class="caption">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                            </div>
+                            <div>
+                                <a href="URL" target="value">Enlace 1</a>
+                                <a href="URL" target="value">Enlace 2</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace n</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Applications -->
+            <div id="applications">
+                <h2 class="subtitle">
+                    <i class="fas fa-box-open"></i>
+                    Aplicaciones
+                </h2>
+                <ul>
+                    <li>
+                        <div>
+                            <div class="item">
+                                <p class="name">Nombre de aplicacion: </p>
+                                <p class="caption">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                            </div>
+                            <div>
+                                <a href="URL" target="value">Enlace 1</a>
+                                <a href="URL" target="value">Enlace 2</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace n</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div class="item">
+                                <p class="name">Nombre de aplicacion: </p>
+                                <p class="caption">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                            </div>
+                            <div>
+                                <a href="URL" target="value">Enlace 1</a>
+                                <a href="URL" target="value">Enlace 2</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace .</a>
+                                <a href="URL" target="value">Enlace n</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <aside>
+            <!-- Aptitudes -->
+            <div id="aptitudes">
+                <h2 class="subtitle">
+                    <i class="fas fa-hands-helping"></i>
+                    Aptitudes
+                </h2>
+                <ul>
+                    <li><p class="caption-2">Aptitud 1</p></li>
+                    <li><p class="caption-2">Aptitud 2</p></li>
+                    <li><p class="caption-2">Aptitud .</p></li>
+                    <li><p class="caption-2">Aptitud .</p></li>
+                    <li><p class="caption-2">Aptitud .</p></li>
+                    <li><p class="caption-2">Aptitud n</p></li>
+                </ul>
+            </div>
+            
+            <!-- Ethical values -->
+            <div id="etical-values">
+                <h2 class="subtitle">
+                    <i class="fas fa-american-sign-language-interpreting"></i>
+                    Valores Eticos
+                </h2>
+                <ul>
+                    <li><p class="caption-2">Valor etico 1</p></li>
+                    <li><p class="caption-2">Valor etico 2</p></li>
+                    <li><p class="caption-2">Valor etico .</p></li>
+                    <li><p class="caption-2">Valor etico .</p></li>
+                    <li><p class="caption-2">Valor etico .</p></li>
+                    <li><p class="caption-2">Valor etico n</p></li>
+                </ul>
+            </div>
+            
+            <!-- Languages -->
+            <div id="languages">
+                <h2 class="subtitle">
+                    <i class="fas fa-language"></i>
+                    Idiomas
+                </h2>
+                <ul>
+                    <li><p class="caption-2">Idioma 1</p></li>
+                    <li><p class="caption-2">Idioma 2</p></li>
+                    <li><p class="caption-2">Idioma .</p></li>
+                    <li><p class="caption-2">Idioma .</p></li>
+                    <li><p class="caption-2">Idioma .</p></li>
+                    <li><p class="caption-2">Idioma n</p></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
